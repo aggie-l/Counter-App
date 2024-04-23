@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-wrapper,
+.action-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.counter-wrapper {
+  padding: 0.5rem;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.minus-btn,
+.plus-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.minus-btn {
+  background-color: #f6e6e6;
+  color: #8c4c47;
+}
+
+.minus-btn:hover {
+  background-color: #f0dbd9;
+}
+
+.plus-btn {
+  background-color: #ebf5eb;
+  color: #649467;
+}
+
+.plus-btn:hover {
+  background-color: #d9ecda;
+}
+
+.count {
+  padding-inline: 1rem;
+}
+
+.action-wrapper {
+  gap: 0.5rem;
+}
+
+.save-btn,
+.reset-btn {
+  padding: 0.5rem 0.8rem;
+  background-color: #d8d8d8;
+  color: #434343;
+}
+
+.save-btn:hover,
+.reset-btn:hover {
+  background-color: #d0d0d0;
+}
